@@ -2,6 +2,12 @@
 
 > A lightweight, efficient PDF reader designed for low-end devices. One purpose. Zero bloat.
 
+<p align="center">
+  <img src="1.jpg" alt="Image 1" width="45%">
+  <img src="2.jpg" alt="Image 2" width="45%">
+</p>
+
+
 ## 🎯 About
 
 PDF Reader is a minimal Android application built with **pure efficiency** in mind. It does one thing and does it well: **read PDF files**. No unnecessary features, no bloated dependencies, no nonsense.
