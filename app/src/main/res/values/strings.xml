@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PDF Reader</string>
+    
+    <!-- Main Activity -->
+    <string name="add_pdf">Add PDF</string>
+    <string name="open_pdf_menu">Open PDF Menu</string>
+    <string name="no_pdf_open">No PDF Open</string>
+    <string name="tap_to_open_pdf">Tap + to open a PDF file</string>
+    <string name="close_pdf">Close PDF</string>
+    
+    <!-- PDF Viewer -->
+    <string name="pdf_page">PDF Page</string>
+    <string name="loading_pdf">Loading PDF…</string>
+    <string name="error_loading_pdf">Error loading PDF</string>
+    
+    <!-- Permissions -->
+    <string name="storage_permission_required">Storage permission is required to open PDF files</string>
+    <string name="permission_denied">Permission denied</string>
+</resources>

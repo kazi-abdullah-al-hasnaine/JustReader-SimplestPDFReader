@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tabCardView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="8dp"
+    app:cardBackgroundColor="@android:color/white"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="12dp"
+        android:paddingEnd="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:gravity="center_vertical"
+        android:minWidth="120dp"
+        android:maxWidth="200dp">
+
+        <!-- Tab content -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginEnd="8dp">
+
+            <!-- PDF filename -->
+            <TextView
+                android:id="@+id/tabTitleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="document.pdf"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="?android:attr/textColorPrimary"
+                android:maxLines="1"
+                android:ellipsize="middle" />
+
+            <!-- Page count -->
+            <TextView
+                android:id="@+id/tabPageCountText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 pages"
+                android:textSize="12sp"
+                android:textColor="?android:attr/textColorSecondary"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <!-- Close button -->
+        <ImageButton
+            android:id="@+id/tabCloseButton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_close"
+            android:contentDescription="@string/close_pdf"
+            android:padding="4dp"
+            android:scaleType="fitCenter" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
