@@ -43,7 +43,7 @@ Perfect for users running older devices with limited RAM and storage. This app p
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/pdf-reader.git
+   git clone https://github.com/kazi-abdullah-al-hasnaineyourusername/pdf-reader.git
    cd pdf-reader
    ```
 
